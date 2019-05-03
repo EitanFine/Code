@@ -22,6 +22,10 @@ const balancedBrackets = sequence => {
 
 console.log(balancedBrackets("[({{}()})[]]"));
 
+/**************************************************************
+**************************************************************
+**************************************************************/
+
 //Solution 2: Maps
 const balancedBrackets = sequence => {
   if (sequence.length % 2 !== 0) return false;
