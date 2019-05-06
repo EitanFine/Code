@@ -19,4 +19,4 @@ const balanced_brackets = str => {
   if (arr.length === 0) return true;
 };
 
-console.log(balanced_brackets("[()]"));
+console.log(balanced_brackets("[()]")); 
